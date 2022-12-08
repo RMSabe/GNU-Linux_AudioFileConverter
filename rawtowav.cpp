@@ -1,12 +1,16 @@
+//Audio File Converter: headerless (.raw) to wave (.wav)
+
 #include <cerrno>
 #include <cstring>
 #include <fstream>
 #include <iostream>
 #include <string>
 
-#define INPUT_FILE_DIR "/media/rafael-user/HDD2/Common/AudioFiles/RAW/tmp/audioDSP.raw"
-#define OUTPUT_FILE_DIR "/media/rafael-user/HDD2/Common/AudioFiles/WAVE/GNU-Linux-DSP/audio.wav"
+#define INPUT_FILE_DIR "/home/user/input_audio.raw"
+#define OUTPUT_FILE_DIR "/home/user/output_audio.wav"
 
+//Audio Playback Parameters.
+//They must be properly set to convert the audio file succesfully.
 #define BITS_PER_SAMPLE 16
 #define NUMBER_OF_CHANNELS 2
 #define SAMPLE_RATE 44100
