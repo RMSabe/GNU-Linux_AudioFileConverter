@@ -1,3 +1,5 @@
+//Auxiliary Tool: This code is used (if needed) to view the playback parameters from a wave (.wav) audio file.
+
 #include <cerrno>
 #include <fstream>
 #include <iostream>
