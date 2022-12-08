@@ -1,11 +1,13 @@
+//Audio File Converter: wave (.wav) to headerless (.raw)
+
 #include <cerrno>
 #include <cstring>
 #include <fstream>
 #include <iostream>
 #include <string>
 
-#define INPUT_FILE_DIR "/media/rafael-user/HDD2/Common/AudioFiles/WAVE/44.1k16bit/LMFAO-PartyRockAnthem.wav"
-#define OUTPUT_FILE_DIR "/media/rafael-user/HDD2/Common/AudioFiles/RAW/tmp/audio.raw"
+#define INPUT_FILE_DIR "/home/user/input_audio.wav"
+#define OUTPUT_FILE_DIR "/home/user/output_audio.raw"
 
 #define BUFFER_SIZE_BYTES 1024
 
